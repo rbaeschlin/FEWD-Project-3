@@ -1,0 +1,11 @@
+/* ----- Global Styles ----- */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ----- Base Element Styles ----- */
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
