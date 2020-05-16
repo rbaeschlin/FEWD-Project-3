@@ -70,6 +70,12 @@ input[placeholder="Required"] {
   text-align: right;
 }
 
+input:focus,
+textarea:focus {
+  border: 1px solid black;
+  background: lightgoldenrodyellow;
+}
+
 fieldset {
   border: none;
 }
@@ -116,6 +122,7 @@ textarea,
 .deets {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .news-area {
