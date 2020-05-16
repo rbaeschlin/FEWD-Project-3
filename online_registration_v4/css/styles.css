@@ -49,6 +49,10 @@ hr {
   border-top: 3px solid black;
 }
 
+.br {
+  border-radius: .325em;
+}
+
 /* ----- Form Element Styles ----- */
 
 input[type="text"],
@@ -59,7 +63,6 @@ input[type="number"],
 textarea,
 select {
   background: #eff0f1;
-  border-radius: .325em;
   outline: none;
   border: none;
   height: auto;
@@ -83,7 +86,7 @@ fieldset {
 }
 
 .btn {
-  background-color: #4ebbb4;
+  background-color: #2D3945;
   color: #fff;
   cursor: pointer;
   padding: 10px;
@@ -129,6 +132,10 @@ form {
 
 .news-area {
   margin: 10px 0;
+}
+
+.newsletter-wrapper {
+  background: #bccde2;
 }
 
 /* ----- media query ----- */
