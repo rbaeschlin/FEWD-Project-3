@@ -65,9 +65,12 @@ select {
   background: #eff0f1;
   outline: none;
   border: none;
-  height: auto;
   margin: 0 0 15px 0;
   padding: 10px;
+}
+
+select {
+  height: 38px;
 }
 
 input[placeholder="Required"] {
