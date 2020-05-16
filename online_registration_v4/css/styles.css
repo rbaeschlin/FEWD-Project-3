@@ -26,7 +26,8 @@ label,
 p,
 select,
 span,
-input[placeholder="Required"] {
+input[placeholder="Required"],
+textarea {
   font-weight: 200;
 }
 
@@ -120,11 +121,48 @@ form {
   padding: 1em 0;
 }
 
-.deets {
+.deets,
+.news-text {
   display: flex;
   flex-direction: column;
 }
 
 .news-area {
   margin: 10px 0;
+}
+
+/* ----- media query ----- */
+
+@media (min-width:768px) {
+
+ fieldset {
+   padding-left: 0;
+   padding-right: 0;
+ }
+
+ form {
+   max-width: 850px;
+ }
+
+ .deets {
+   flex-direction: row;
+ }
+
+ .deets input,
+ .deets select {
+   flex-basis: 75%;
+   flex-grow: 1;
+ }
+
+ .deets label {
+   flex-basis: 25%;
+ }
+
+ #zip {
+   max-width: 33%;
+ }
+
+ label {
+   font-weight: 300;
+ }
 }
